@@ -16,7 +16,7 @@ import Link from "next/link";
 function Navbar() {
   const [active, setActive] = useState(false);
   const [languages, setLanguages] = useState(false);
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
   const isActive = () => {
     window.scrollY > 0 ? setActive(true) : setActive(false);
   };
